@@ -4,6 +4,11 @@ import { Parser, ParserOptions } from "./Parser";
 
 export { getFeed };
 
+
+
+
+
+
 /** @deprecated Handler is no longer necessary; use `getFeed` or `parseFeed` instead. */
 export class FeedHandler extends DomHandler {
     feed?: Feed;
